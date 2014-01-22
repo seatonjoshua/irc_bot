@@ -5,7 +5,7 @@ port = "6667"
 nick = "HelloBot2"
 channel = "#cohort5"
 greeting_prefix = "privmsg #{channel} :"
-greetings=["who's there?", "there", "who's", "?"]
+greetings=["who's there?"]
 greetings1=["dismay who?"]
 
 irc_server = TCPSocket.open(server, port)
